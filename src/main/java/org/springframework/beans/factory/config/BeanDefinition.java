@@ -1,7 +1,7 @@
-package org.springframework.factory.config;
+package org.springframework.beans.factory.config;
 
 
-import org.springframework.factory.PropertyValues;
+import org.springframework.beans.PropertyValues;
 
 // 存储bean的scope class 等信息 这里简化为只储存类
 public class BeanDefinition {

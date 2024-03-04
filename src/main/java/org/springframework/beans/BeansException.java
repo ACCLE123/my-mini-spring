@@ -1,4 +1,4 @@
-package org.springframework;
+package org.springframework.beans;
 
 public class BeansException extends Exception {
     public BeansException(String msg) {

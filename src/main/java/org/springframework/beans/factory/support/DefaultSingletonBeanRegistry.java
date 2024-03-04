@@ -1,6 +1,6 @@
-package org.springframework.factory.support;
+package org.springframework.beans.factory.support;
 
-import org.springframework.factory.config.SingletonBeanRegistry;
+import org.springframework.beans.factory.config.SingletonBeanRegistry;
 
 import java.util.HashMap;
 import java.util.Map;
