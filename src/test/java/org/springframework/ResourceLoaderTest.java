@@ -17,5 +17,15 @@ public class ResourceLoaderTest {
         InputStream inputStream = resource.getInputStream();
         String content = IoUtil.readUtf8(inputStream);
         System.out.println(content);
+
+        resource = resourceLoader.getResource("src/test/resources/hello.txt");
+        inputStream = resource.getInputStream();
+        content = IoUtil.readUtf8(inputStream);
+        System.out.println(content);
+
+        resource = resourceLoader.getResource("https://www.baidu.com");
+        inputStream = resource.getInputStream();
+        content = IoUtil.readUtf8(inputStream);
+        System.out.println(content);
     }
 }
